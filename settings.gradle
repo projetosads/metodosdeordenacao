@@ -1,0 +1,3 @@
+rootProject.name = 'PrincipalSecundarioProject'
+include ':principal'
+include ':secundario'

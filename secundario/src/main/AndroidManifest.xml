@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.principal.app.secundario">
+
+    <application>
+        <activity android:name=".SecundarioActivity"
+            android:exported="true"
+            android:label="secundario Activity" />
+
+        <service android:name=".SecundarioKeepAliveService" android:exported="false" />
+    </application>
+</manifest>
